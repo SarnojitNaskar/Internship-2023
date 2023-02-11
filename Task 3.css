@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+    text-align: start;
+    font-size: 24px;
+	padding-left: 20px;
+}
+
+img {
+	height: 30px;
+	width: 40px;
+	border-radius: 50%;
+}
+
+.header{
+	text-align: center;
+	height: 12vh;
+	background: linear-gradient(white, grey, black);
+	box-shadow: 0 0 20px 0 black;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.home {
+    color: black;
+    background-color: white; 
+    border-radius: 15%;
+}
+
+.nav-menu a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header-content {
+	background-image: url(/Practice/Image/green\ apple\ 2.jpg);
+	color: rgba(5, 125, 121, 0.933);
+	height: 20vh;
+	font-size: larger;
+}
+
+.fi {
+	margin: 0;
+	padding: 0;
+}
+
+.s2 {
+	background: linear-gradient(rgba(8, 169, 169, 0.932), rgba(0, 124, 124, 0.511), rgba(0, 255, 255, 0.467));
+}
+
+.about1 {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.s3 {
+	background: linear-gradient(rgba(8, 8, 8, 0.9), rgba(8, 8, 8, 1), rgba(8, 8, 8, 0.94));
+}
+
+.about2 {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
+
+.f {
+	background: linear-gradient(rgba(0, 0, 0, 0.911), rgba(8, 8, 8, 0.905), rgba(0, 0, 0, 0.763));
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+}
